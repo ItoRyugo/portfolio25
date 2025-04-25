@@ -1,0 +1,55 @@
+:root {
+    --video-opacity: 0.8;
+  }
+  
+  header {
+    position: relative;
+    margin-bottom: 5rem;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center top;
+    opacity: var(--video-opacity);
+    z-index: 1;
+  }
+  
+  .header-texts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+    color: white;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header-name {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
